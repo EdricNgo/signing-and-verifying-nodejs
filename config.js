@@ -1,0 +1,4 @@
+exports.defaultPrivateKey = "7b75f7f40779b44cdf1d7900b61340fc15b4aa041685e8f7f681a87f6b3447e8";
+exports.defaultPublicKey = "04eb7dca4b9c0ae5f18598914f0a80e89b885a28a8f44ba1f86dc26ef09d815eadcd93f5c94ba0777ba87560aaf7b274613239505bacf55fd0a300c7acd6b64dc4"
+exports.senderPort = 3000
+exports.validatorPort = 3001

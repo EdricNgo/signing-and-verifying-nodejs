@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "0cceef95-95dd-4869-96ef-acb2c70c6dd8",
+		"name": "quoine",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "send message",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "message",
+							"value": "Hello from sender",
+							"description": "Message",
+							"type": "text"
+						},
+						{
+							"key": "custom_private_key",
+							"value": "asdssssssssasdsadsadasd",
+							"description": "Use custom private key instead of default private key (optional)",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/sendMessage",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"sendMessage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
